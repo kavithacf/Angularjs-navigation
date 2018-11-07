@@ -13,10 +13,10 @@ angular.module('myApp', ['ui.router'])
     });
 
    
-    // $stateProvider.state('downloads', {
-    //     url: '/downloads',
-    //     templateUrl: 'downloads.html'
-    // });
+    $stateProvider.state('form', {
+        url: '/form',
+        templateUrl: 'views/form.html'
+    });
     
     // $stateProvider.state('about', {
     //     url: '/about',
